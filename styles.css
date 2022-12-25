@@ -1,0 +1,469 @@
+body {
+    background-color: #D7F5DC;
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 28.85px 0px 0px 116.09px;
+    display: inline-block;
+}
+
+.heading span {
+    color: #F55F1D;
+}
+
+.Nav2 {
+    /* margin : 31.85px 0px 0px 511.68px; */
+    display: inline-block;
+}
+
+.NavItems1 {
+    display: table-cell;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18.34px;
+    line-height: 28px;
+
+    width: 77px;
+    height: 28px;
+}
+
+.NavItems2 {
+    display: table-cell;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18.34px;
+    line-height: 28px;
+    margin-left: 91.7px;
+
+    width: 83px;
+    height: 28px;
+}
+
+.NavItems3 {
+    display: table-cell;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 18.34px;
+    line-height: 28px;
+
+    width: 103px;
+    height: 28px;
+}
+
+/* MAIN AREA  */
+.Text-container {
+    display: inline-block;
+}
+
+.maintext {
+    width: 630.44px;
+    height: 224px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 57.3125px;
+    line-height: 75px;
+    /* or 130% */
+
+    color: #000000;
+    margin: 200px 0 0 100px;
+    /* position: relative;
+    z-index: 0; */
+    /* bottom: 150px; */
+
+
+
+    /* Inside auto layout */
+    /* flex: none;
+    order: 0;
+    flex-grow: 0; */
+
+}
+
+.subtext {
+
+    width: 541.03px;
+    height: 62px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+
+    color: #000000;
+    margin: 11.46px 0 0 100px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+
+/* IMAGES  */
+.Lady {
+    display: inline-block;
+
+    /* Header Lady 1 */
+
+    position: absolute;
+    width: 770.28px;
+    height: 646.49px;
+    left: 750.16px;
+    top: 136.4px;
+
+}
+
+.svg1 {
+    /* Rectangle 1240 */
+
+    position: absolute;
+    width: 11.46px;
+    height: 11.46px;
+    left: 805.71px;
+    top: 150.56px;
+
+    background: #48B774;
+    border-radius: 2.2925px;
+    transform: rotate(-45deg);
+
+}
+
+.svg2 {
+    /* Frame 4 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16.3016px;
+    gap: 8.15px;
+
+    position: absolute;
+    width: 65.21px;
+    height: 65.21px;
+    left: 894.12px;
+    top: 194.86px;
+
+    background: #FF8345;
+    border-radius: 12.2262px;
+    transform: rotate(25deg);
+
+
+    /* Iconly/Broken/Star */
+
+    width: 32.6px;
+    height: 32.6px;
+
+    transform: rotate(25deg);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+
+    /* Star */
+
+    position: absolute;
+    width: 27.16px;
+    height: 27.17px;
+    left: 15.09px;
+    top: 3.61px;
+
+    transform: rotate(25deg);
+
+
+    /* Star */
+
+    position: absolute;
+    left: 56.29%;
+    right: -29.61%;
+    top: 25.07%;
+    bottom: 5.58%;
+
+    /* background: #FFFFFF; */
+    transform: rotate(25deg);
+
+}
+
+.svg3 {
+    /* Rectangle 1238 */
+
+    position: absolute;
+    width: 11.46px;
+    height: 11.46px;
+    left: 875.34px;
+    top: 527.36px;
+
+    background: #48B774;
+    border-radius: 2.2925px;
+    transform: rotate(-45deg);
+
+}
+
+.svg4 {
+    /* Frame 6 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16.3016px;
+    gap: 8.15px;
+
+    position: absolute;
+    width: 65.21px;
+    height: 65.21px;
+    left: 763.4px;
+    top: 650.23px;
+
+    background: #48B774;
+    border-radius: 12.2262px;
+    transform: rotate(-45deg);
+
+
+    /* Iconly/Broken/Work */
+
+    width: 32.6px;
+    height: 32.6px;
+
+    transform: rotate(-45deg);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+
+
+    /* Work */
+
+    position: absolute;
+    width: 27.16px;
+    height: 26.81px;
+    left: 3.84px;
+    top: 23.05px;
+
+    transform: rotate(-45deg);
+
+
+    /* Work */
+
+    /* position: absolute;
+    left: 11.79%;
+    right: 4.92%;
+    top: 70.71%;
+    bottom: -52.94%;
+
+    background: #FFFFFF;
+    transform: rotate(-45deg); */
+
+
+    /* Fill 1 */
+
+    position: absolute;
+    left: 76.24%;
+    right: 17.51%;
+    top: 8.69%;
+    bottom: 7.66%;
+
+    background: #48B774;
+    transform: rotate(-45deg);
+
+
+    /* Fill 3 */
+
+    /* position: absolute;
+    left: 11.79%;
+    right: 4.92%;
+    top: 70.71%;
+    bottom: -22.36%; */
+
+    /* background: #000000; */
+    /* transform: rotate(-45deg); */
+
+
+    /* Path */
+
+    position: absolute;
+    left: 49.62%;
+    /* right: 8.58%; */
+    top: 83.71%;
+    /* bottom: -12.51%; */
+
+    transform: rotate(-45deg);
+
+
+    /* Path */
+
+    /* position: absolute;
+        left: 11.79%;
+        right: 4.92%;
+        top: 70.71%;
+        bottom: -25.36%;
+
+        transform: rotate(-45deg); */
+
+
+    /* Fill 6 */
+    /* 
+    position: absolute;
+    left: 75.15%;
+    right: -21.74%;
+    top: 82.33%;
+    bottom: -11.54%; */
+
+    /* background: #130F26; */
+    /* transform: rotate(-45deg); */
+
+
+    /* Fill 8 */
+
+    /* position: absolute;
+    left: 49.36%;
+    right: 25.13%;
+    top: 108.12%;
+    bottom: -37.32%; */
+
+    /* background: #130F26; */
+    /* transform: rotate(-45deg); */
+}
+
+.svg5 {
+    /* Rectangle 1236 */
+
+    position: absolute;
+    width: 11.46px;
+    height: 11.46px;
+    left: 1162.3px;
+    top: 222.45px;
+
+    background: #FF8345;
+    border-radius: 2.2925px;
+    transform: rotate(-45deg);
+
+}
+
+.svg6 {
+    /* Rectangle 1237 */
+
+    position: absolute;
+    width: 11.46px;
+    height: 11.46px;
+    left: 1178.34px;
+    top: 382.93px;
+
+    background: #48B774;
+    border-radius: 2.2925px;
+    transform: rotate(-45deg);
+
+}
+
+.svg7 {
+    /* Frame 5 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16.3016px;
+    gap: 8.15px;
+
+    position: absolute;
+    width: 65.21px;
+    height: 65.21px;
+    left: 1228.78px;
+    top: 281.98px;
+
+    background: #48B774;
+    border-radius: 12.2262px;
+
+
+    /* Iconly/Broken/Tick Square */
+
+    width: 32.6px;
+    height: 32.6px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+
+
+    /* Tick Square */
+
+    position: absolute;
+    width: 27.17px;
+    height: 27.17px;
+    left: 2.72px;
+    top: 2.72px;
+
+
+
+    /* Tick Square */
+
+    position: absolute;
+    left: 8.33%;
+    right: 8.33%;
+    top: 8.33%;
+    bottom: 8.33%;
+
+    background: #FFFFFF;
+
+
+    /* Fill 1 */
+
+    /* position: absolute;
+    left: 32.04%;
+    right: 32.04%;
+    top: 36.99%;
+    bottom: 36.99%; */
+
+    /* background: #130F26;  */
+
+
+    /* Fill 3 */
+
+    position: absolute;
+    left: 79%;
+    right: 8.33%;
+    top: 38.33%;
+    bottom: 8.33%;
+
+    background: #48B774;
+
+}
+
+.svg8 {
+    /* Rectangle 1239 */
+
+    position: absolute;
+    width: 11.46px;
+    height: 11.46px;
+    left: 1383.52px;
+    top: 703.88px;
+
+    background: #FF8345;
+    border-radius: 2.2925px;
+    transform: rotate(-45deg);
+
+}
