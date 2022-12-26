@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/E-CELL_FRONTEND_SHASHANK/static/js/main.e87bec83.js",
+    "main.js": "/E-CELL_FRONTEND_SHASHANK/static/js/main.37dcc63f.js",
     "static/media/Lady.png": "/E-CELL_FRONTEND_SHASHANK/static/media/Lady.fc7d0a559eb0dfd29215.png",
     "index.html": "/E-CELL_FRONTEND_SHASHANK/index.html",
-    "main.e87bec83.js.map": "/E-CELL_FRONTEND_SHASHANK/static/js/main.e87bec83.js.map"
+    "main.37dcc63f.js.map": "/E-CELL_FRONTEND_SHASHANK/static/js/main.37dcc63f.js.map"
   },
   "entrypoints": [
-    "static/js/main.e87bec83.js"
+    "static/js/main.37dcc63f.js"
   ]
 }
