@@ -4,6 +4,7 @@ import React from "react";
 import Title from "./NavTitle";
 import NavItems from "./NavItems";
 import NavList from "./NavList";
+import login from "./Buttons";
 
 function CreateNavItems(NavItems) {
     return (
@@ -19,7 +20,8 @@ function NavBar() {
         <div>
             <Title />
             {/* {NavItems.map(CreateNavItems)} */}
-            {/* <NavList /> */}
+            <NavList />
+            <login />
 
 
         </div>
